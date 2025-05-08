@@ -4,7 +4,7 @@ const logo = {
 
 const tags = ['package', 'library'];
 
-const sources = ['package.cs', 'js/source/library.js'];
+const sources = ['package.js', 'js/source/library.js'];
 
 for (i = 0; i < tags.length; i++) {
     $s = document.createElement('script');
