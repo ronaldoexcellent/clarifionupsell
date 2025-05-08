@@ -4,7 +4,7 @@ const logo = {
 
 const tags = ['package', 'library'];
 
-const sources = ['package.cjs', 'js/source/library.cjs'];
+const sources = ['package.cs', 'js/source/library.js'];
 
 for (i = 0; i < tags.length; i++) {
     $s = document.createElement('script');
@@ -14,4 +14,4 @@ for (i = 0; i < tags.length; i++) {
 
 const stylesheets = ["css/lib/code.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",  "css/root.css"];
 
-const script = "js/app.cjs";
+const script = "js/app.js";
